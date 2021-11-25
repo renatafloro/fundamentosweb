@@ -6,6 +6,7 @@
     margin: 0;
     font-family:'Roboto Mono', sans-serif;
     background-color: #ffaf40;
+    
 }
 .titulo1{
     text-align: center;
@@ -63,46 +64,58 @@
 
 }
 /*deixe sua mensagem*/
-
-.form{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: purple;
-    flex-direction: column;
-}
-.info{
-  display: flex;
- flex-direction: column;
- margin-bottom: 10px;
-}
-.form{
+  .formulario {
     width: 100%;
     height: 80vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: purple;
+    color: black;
+  }
+  
+  .formulario h2 {
+    font-size: 35px;
+  }
+  
+  .form {
+    display: flex;
     flex-direction: column;
-}
-.info{
-  display: flex;
- flex-direction: column;
- margin-bottom: 15px;
-}
-.info input{
-   padding: 6px;
-   font-size: 18px;
-}
-  .mapa{
-      margin-left: 50px;
   }
+  
+  .campos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .campos input {
+    padding: 6px;
+    font-size: 18px;
+  }
+  
+  button {
+    margin-top: 10px;
+    border: 2px solid purple;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background: purple;
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+  
+  button:hover {
+    color: white;
+    background:purple;
+    border: 2px solid white;
+    font-weight: 700;}
 
-  /*hobbie*/
-  .img{
+    /*hobbie*/
+    .img{
     position: left;
-    margin-left: auto;
+    margin-left: 50px;
     margin-right: auto;
-    width: 6em
-  }
- 
+    height: 300px;
+    width: 300px; 
+    }
+    

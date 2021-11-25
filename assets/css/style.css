@@ -1,0 +1,108 @@
+/*Estilos da página index.html*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Roboto Mono', sans-serif;
+    background-color: #ffaf40;
+}
+.titulo1{
+    text-align: center;
+    color: purple;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.menu li{
+    display: inline;
+    padding: 15px;  
+    
+}
+.texto{
+    text-align: justify;
+    padding: 30px;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.menu li a:hover{
+    color: purple
+}
+.foto{
+    border-radius: 50%;
+    padding: 30px;
+    height: 400px;
+}
+.tm-social{
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+}
+.titulo2{
+    text-align: center;
+    color: purple;
+    padding: 30px;
+    text-align: justify;
+}
+.video{
+    color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.links{
+    text-align: center;
+
+}
+/*deixe sua mensagem*/
+
+.form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: purple;
+    flex-direction: column;
+}
+.info{
+  display: flex;
+ flex-direction: column;
+ margin-bottom: 10px;
+}
+.form{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: purple;
+    flex-direction: column;
+}
+.info{
+  display: flex;
+ flex-direction: column;
+ margin-bottom: 15px;
+}
+.info input{
+   padding: 6px;
+   font-size: 18px;
+}
+  .mapa{
+      margin-left: 50px;
+  }
+
+  /*hobbie*/
+  .img{
+    position: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+  }
+ 

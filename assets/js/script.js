@@ -60,10 +60,9 @@ function enviar(){
     }
 }
 
-/*Não funcionou*/
 function mapaZoom(){
-    mapa.style.width = "900px"
-    mapa.style.heigth = '900px'
+    mapa.style.width = "700px"
+    mapa.style.height = '600px'
 }
 
 function mapaNormal(){
